@@ -1,0 +1,28 @@
+.header {
+  padding-top: 64px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__link {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header__link-logo {
+  background: url(../../assets/logo-login.svg) no-repeat left center;
+  padding-left: 28px;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  text-decoration: none;
+}
